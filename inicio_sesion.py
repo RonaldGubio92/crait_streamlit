@@ -24,7 +24,7 @@ if os.path.exists(logo_path):
 # Diccionario de roles y accesos
 menu_roles = {
     "admin": ["Usuarios", "Transportistas", "Soporte Técnico", "Vacaciones"],
-    "tecnico": ["Transportistas", "Vacaciones"],
+    "tecnico": ["Transportistas", "Vacaciones","Soporte Técnico"],
     "administrativo": ["Soporte Técnico"]
 }
 
